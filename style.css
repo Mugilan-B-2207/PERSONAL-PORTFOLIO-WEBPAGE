@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Navigation */
+nav {
+  background-color: #222; /* Darker gray for navigation */
+  color: #fff; /* White text */
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.nav-links a:hover {
+  color: #007BFF;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; /* White text */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background-color: #27279e; /* Blue for hero section */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* White text on blue background */
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.btn {
+  display: inline-block;
+  background-color: #fff; /* Invert button colors */
+  color: #27279e; 
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: #e6e6e6; /* Light gray hover */
+}
+
+/* About Section */
+.about {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #b1b1e6; /* Off-white for about section */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #333; /* Dark gray text */
+}
+
+/* Projects Section */
+.projects {
+  padding: 3rem 1rem;
+  background-color: #fff; /* White for projects */
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #333; /* Dark gray text */
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.project-card {
+  background: rgb(255, 255, 255);
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact Section */
+.contact {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #b1b1e6; /* Light gray for contact */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #333; /* Dark gray text */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #222; /* Dark gray for footer */
+  color: #fff; /* White text */
+  padding: 1rem 0;
+}
